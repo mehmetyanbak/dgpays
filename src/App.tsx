@@ -9,7 +9,7 @@ interface HTMLTable {
   name: string;
   mailReceivedDate: string;
   solutionSentDate: string;
-  isRed: boolean;
+  isRed: string;
 }
 
 const App = () => {
