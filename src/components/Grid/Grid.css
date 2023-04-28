@@ -1,0 +1,41 @@
+.red-background {
+  background-color: red;
+}
+
+.header,
+.background-info-column {
+  visibility: hidden;
+}
+
+.inputs-and-button-wrapper {
+  flex-direction: row;
+  width: 250px;
+  padding: 12px;
+}
+
+.limit-wrapper,
+.today-wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  width: 100%;
+  font: normal normal bold 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border-radius: 23px;
+  border: none;
+  height: 32px;
+}
+
+.submit-btn-enable {
+  background: #00abaa 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+
+.submit-btn-disable {
+  background: gray 0% 0% no-repeat padding-box;
+  cursor: not-allowed;
+}
