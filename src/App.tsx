@@ -4,7 +4,6 @@ import Grid from "./components/Grid/Grid";
 import dataList from "./data.json";
 
 const ONE_DAY_AS_MS = 1000 * 60 * 60 * 24;
-
 interface HTMLTable {
   name: string;
   mailReceivedDate: string;
